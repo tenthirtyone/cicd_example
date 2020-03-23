@@ -18,8 +18,8 @@ spec:
         - name: cicd
           image: asherbuck/cicd:latest
           imagePullPolicy: Always
-	  env:
-	  - name: VERSION
-	    value: "0.0.1"
+          env:
+          - name: VERSION
+            value: "0.0.1"
           ports:
             - containerPort: 4000
