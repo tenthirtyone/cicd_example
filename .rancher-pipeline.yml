@@ -1,0 +1,9 @@
+stages:
+- name: Build
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: asherbuck/cicd
+timeout: 60
+notification: {}
