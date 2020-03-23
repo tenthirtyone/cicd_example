@@ -5,5 +5,7 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: asherbuck/cicd
+      pushRemote: true
+      registry: index.docker.io
 timeout: 60
 notification: {}
