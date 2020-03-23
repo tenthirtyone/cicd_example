@@ -20,6 +20,6 @@ spec:
           imagePullPolicy: Always
           env:
           - name: VERSION
-            value: "0.0.1"
+            value: "0.0.2"
           ports:
             - containerPort: 4000
